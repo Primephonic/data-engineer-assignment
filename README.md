@@ -30,9 +30,9 @@ You might have also noticed that `events.csv` contains every single streamed eve
 Your task is to merge these 2 data sources into a single suitable data source, which exposes *only* data regarding the personalized playlists (everything else should be excluded). The data should be modeled in such a way that it can be queried by a business user without too much technical knowledge. They should be able to answer the question "Which works were recommended to user X" by running a simple query, without having to join datasets, or interpret meaning of ids, etc.
 
 ### 2. Report creation
-With the newly created data source, your task is to now create a report/dashboard (in any technology/tool of your choice - can also be text-based), which displays a summary of the total number of seconds consumed by each of the personalized playlists. For this report, we do not care that each user has 3 unique playlists - we are only interested in knowing as an aggregate, the popularity of `playlist_01`, `playlist_02` and `playlist_03` (popularity expressed in total number of seconds streamed).
+With the newly created data source, your task is to now create a report (in any technology/tool of your choice - can also be text-based), which displays a summary of the total number of seconds consumed by each of the personalized playlists. For this report, we do not care that each user has 3 unique playlists - we are only interested in knowing as an aggregate, the popularity of `playlist_01`, `playlist_02` and `playlist_03` accross all users (popularity expressed in total number of seconds streamed).
 
 ## Requirements
 You may use any programming language, library, database, etc. of your choice, as long as there is a:
 1. Clear explanation of why you chose it.
-2. We can run the assignment ourselves, so please make sure that all aspects of this assignment are easily reproduceable.
+2. We can run the assignment ourselves, so please make sure that all aspects of this assignment are easily reproducible and provide us with the steps to do so.
